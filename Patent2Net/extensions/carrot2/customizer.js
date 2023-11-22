@@ -1,7 +1,7 @@
 const head = document.getElementsByTagName("head")[0];
 const script = document.createElement("script");
 script.type = "text/javascript";
-script.src = "http://patent2net.edm.uqam.ca:5000/Patent2Net/extensions/carrot2/index.js";
+script.src = "http://patent2net.edm.uqam.ca/Patent2Net/extensions/carrot2/index.js";
 script.dataset.domain = "patent2net.edm.uqam.ca";
 head.appendChild(script);
 

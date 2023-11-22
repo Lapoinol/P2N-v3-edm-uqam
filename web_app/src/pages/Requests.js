@@ -80,7 +80,7 @@ function App() {
   const history = useHistory();
 
   React.useEffect(() => {
-      fetch("http://patent2net.edm.uqam.ca:5000/api/v1/requests")
+      fetch("http://patent2net.edm.uqam.ca/api/v1/requests")
       .then(function(response) {
           return response.json();
       })
@@ -107,7 +107,7 @@ function App() {
 
     console.log(data)
 
-    fetch('http://patent2net.edm.uqam.ca:5000/api/v1/requests', { 
+    fetch('http://patent2net.edm.uqam.ca/api/v1/requests', { 
       method: 'POST',
       body: data
     })

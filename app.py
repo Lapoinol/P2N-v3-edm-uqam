@@ -446,7 +446,7 @@ def get_success_response(message, data):
 
 @app.route('/announce')
 def annonce():
-    # expects a requests.get('http://patent2net.edm.uqam.ca:5000/annonce?appli=0&ValActu='+str(random.randint(0,101))+'&valMax=30')
+    # expects a requests.get('http://patent2net.edm.uqam.ca/annonce?appli=0&ValActu='+str(random.randint(0,101))+'&valMax=30')
     # appli is the emiter application should be in this list lstAppl = ['p2n_req','p2n_gather_biblio', 'p2n_content', 'p2n_family','p2n_image','p2n_network','p2n_tables','p2n_carrot','p2n_iramuteq','p2n_cluster']
     # valActu the actual step in progress
     # valMax the max value to reach
