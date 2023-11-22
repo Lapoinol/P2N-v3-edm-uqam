@@ -6,7 +6,7 @@ const Home = ({version}) => {
 
     const update = React.useCallback(() => {
         setIsUpdate(true)
-        fetch("http://localhost:5000/updateP2N")
+        fetch("http://patent2net.edm.uqam.ca:5000/updateP2N")
         .then(function(response) {
             setIsUpdate(false)
         })

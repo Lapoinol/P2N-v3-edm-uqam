@@ -9,7 +9,7 @@
     }
 
     function e(t, e) {
-        if (/^localhost$|^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*\:)*?:?0*1$/.test(a.hostname) || "file:" === a.protocol) return w("localhost");
+        if (/^patent2net.edm.uqam.ca$|^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*\:)*?:?0*1$/.test(a.hostname) || "file:" === a.protocol) return w("patent2net.edm.uqam.ca");
         if (!(window.phantom || window._phantom || window.__nightmare || window.navigator.webdriver || window.Cypress)) {
             if ("true" == l) return w("localStorage flag");
             var i = {};

@@ -41,7 +41,7 @@ const all_options = {
   },
   "p2n_carrot": {
     name: "p2n carrot",
-    description: "Export data to XML suitable for using in Carrot2. Tip use localhost:8080 instead.",
+    description: "Export data to XML suitable for using in Carrot2. Tip use patent2net.edm.uqam.ca:8080 instead.",
     icon: "carrot"
   },
   "p2n_iramuteq": {
@@ -80,7 +80,7 @@ function App() {
   const history = useHistory();
 
   React.useEffect(() => {
-      fetch("http://localhost:5000/api/v1/requests")
+      fetch("http://patent2net.edm.uqam.ca:5000/api/v1/requests")
       .then(function(response) {
           return response.json();
       })
@@ -107,7 +107,7 @@ function App() {
 
     console.log(data)
 
-    fetch('http://localhost:5000/api/v1/requests', { 
+    fetch('http://patent2net.edm.uqam.ca:5000/api/v1/requests', { 
       method: 'POST',
       body: data
     })

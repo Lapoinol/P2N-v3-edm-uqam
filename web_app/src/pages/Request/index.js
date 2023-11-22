@@ -16,7 +16,7 @@ const Request = () => {
     const [data, setData] = React.useState({});
 
     const updateData = React.useCallback(() => {
-        fetch("http://localhost:5000/api/v1/requests/" + dir)
+        fetch("http://patent2net.edm.uqam.ca:5000/api/v1/requests/" + dir)
         .then(function(response) {
             return response.json();
         })
@@ -36,7 +36,7 @@ const Request = () => {
 
     React.useEffect(() => {
         console.log("Opening the SSE connection")
-        var source = new EventSource("http://localhost:5000/api/v1/listen");
+        var source = new EventSource("http://patent2net.edm.uqam.ca:5000/api/v1/listen");
         source.onmessage = function(event) {
             const data = JSON.parse(event.data)
             console.log(data)

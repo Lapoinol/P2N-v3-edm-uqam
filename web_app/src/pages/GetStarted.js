@@ -35,7 +35,7 @@ const GetStarted = () => {
                             </div>
                         </div>
                         <div className="mt-4">
-                            <form action="http://localhost:5000/get_started/stocked" method="post">
+                            <form action="http://patent2net.edm.uqam.ca:5000/get_started/stocked" method="post">
                                 <div>
                                     <label className="font-semibold">cles-epo * :</label>
                                     <p className="pt-2 pb-2 text-sm italic text-gray-800">Paste in the textbox the key provided by EPO.</p>

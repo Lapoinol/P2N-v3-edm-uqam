@@ -4,7 +4,7 @@
 Web interface
 =============
 You can interact with Patent2Net using a HTML5 compliant browser. Best results using Firefox or chrome are acheived. 
-The main interface is on port 5000. You can access the home page using the adress: http://localhost:5000
+The main interface is on port 5000. You can access the home page using the adress: http://patent2net.edm.uqam.ca:5000
 
 Home page
 ---------
@@ -41,5 +41,5 @@ Download Data
 -------------
 * This button allows you to download all the data directory in zip format to you computer file system (out of the docker machine).
 
-.. note:: You can also use an FTP client with the address localhost, user p2n and no pass.
+.. note:: You can also use an FTP client with the address patent2net.edm.uqam.ca, user p2n and no pass.
 

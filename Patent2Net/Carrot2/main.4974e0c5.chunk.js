@@ -3329,7 +3329,7 @@
         }, xr = fr({
             id: "solr",
             serviceName: "Solr",
-            configOverrides: {serviceUrl: "http://localhost:8983/solr", extraHttpGetParams: ""},
+            configOverrides: {serviceUrl: "http://patent2net.edm.uqam.ca:8983/solr", extraHttpGetParams: ""},
             querySetting: e => Object(T.a)(Object(T.a)({id: "".concat(e, ":query")}, Object(fe.e)(ye, "query")), {}, {
                 type: "string",
                 label: "Query",
@@ -3492,7 +3492,7 @@
         }), Lr = fr({
             id: "es",
             serviceName: "Elasticsearch",
-            configOverrides: {serviceUrl: "http://localhost:9200/", extraHttpGetParams: ""},
+            configOverrides: {serviceUrl: "http://patent2net.edm.uqam.ca:9200/", extraHttpGetParams: ""},
             querySetting: e => Object(T.a)(Object(T.a)({id: "".concat(e, ":query")}, Object(fe.e)(ye, "query")), {}, {
                 type: "string",
                 label: "Query",
@@ -4319,7 +4319,7 @@
                 }), Object(a.jsx)(c.b, {exact: !0, path: u.a.about.path, component: O})]
             })]
         });
-    Boolean("localhost" === window.location.hostname || "[::1]" === window.location.hostname || window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+    Boolean("patent2net.edm.uqam.ca" === window.location.hostname || "[::1]" === window.location.hostname || window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
     o.a.render(Object(a.jsx)(tn, {}), document.getElementById("root")), "serviceWorker" in navigator && navigator.serviceWorker.ready.then((e => {
         e.unregister()
     }))

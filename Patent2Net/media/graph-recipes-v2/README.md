@@ -20,7 +20,7 @@ npm run build
 # Just watch the files & retranspile (e.g. when serving app with Apache)
 npm run watch
 
-# Watch the files & serve the application on localhost:3000
+# Watch the files & serve the application on patent2net.edm.uqam.ca:3000
 npm run dev
 ```
 
