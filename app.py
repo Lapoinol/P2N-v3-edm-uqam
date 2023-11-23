@@ -123,6 +123,7 @@ def form():
 def confirmation_post():
     form_result = request.form
     p2n_dir = form_result['p2n_dir']
+    print("p2n_dir = " + p2n_dir)
 
     #Pleaceholder file who give the model of the file
     f_in = open("placeholder.cql", "rt")
