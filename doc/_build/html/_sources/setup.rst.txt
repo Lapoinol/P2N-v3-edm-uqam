@@ -21,9 +21,9 @@ Installation
 **************
 Configuration
 **************
-- setup your EPO's API key in the `get_started page: <http://patent2net.edm.uqam.ca/get_started)>`_
-- enjoy the request form (http://patent2net.edm.uqam.ca/form) to make your requests and see progress (Help need to fix UX and SSE consolidate)
-- explore results: http://patent2net.edm.uqam.ca/index
+- setup your EPO's API key in the `get_started page: <https://patent2net.uqam.ca/get_started)>`_
+- enjoy the request form (https://patent2net.uqam.ca/form) to make your requests and see progress (Help need to fix UX and SSE consolidate)
+- explore results: https://patent2net.uqam.ca/index
 - please help in user design interface!
 - go to the :ref:`docker-config` section for details on the interface
 - see :ref:`usage` for details.

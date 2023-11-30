@@ -4,7 +4,7 @@ const DataIndex = () => {
     const [ requests, setRequests ] = React.useState({});
   
     React.useEffect(() => {
-        fetch("http://patent2net.edm.uqam.ca/api/v1/requests")
+        fetch("https://patent2net.uqam.ca/api/v1/requests")
         .then(function(response) {
             return response.json();
         })
@@ -27,7 +27,7 @@ const DataIndex = () => {
                         <div className="mt-4">
                             { requests.done && requests.done.map((name) => (
                                 <div key={name}>
-                                    <a rel="noreferrer" target="_blank" href={"http://patent2net.edm.uqam.ca/DATA/" + name + ".html" } >{name}</a>
+                                    <a rel="noreferrer" target="_blank" href={"https://patent2net.uqam.ca/DATA/" + name + ".html" } >{name}</a>
                                 </div>
                             ))}
                         </div>

@@ -48,7 +48,7 @@ P2N docker special features
 * Centos image with P2N automatically installed
 * user p2n (no passwd)
 * vsftpd pointing to p2n homedir for file interactions between your machine and P2N's using File Transport Protocol. [FileZilla] (https://filezilla-project.org/) is a good client. Use 127.0.0.1 address with user p2n. Hence, DATA stuff can be acceded by FTP.
-* RUN_P2N scripts starts a flask server to provide a standalone web server and serves P2N functions and files. See http://patent2net.edm.uqam.ca
+* RUN_P2N scripts starts a flask server to provide a standalone web server and serves P2N functions and files. See https://patent2net.uqam.ca
 * Patent2Net now integrate an user interface to enter request instead of creating cql file... And Read the doc...
 * Update is operated using the "UPDATE" button. Silly, ins't it?
 * opens a bash shell (use P2N_Bash.bat scripts) on this docker machine assuming you know what you do...

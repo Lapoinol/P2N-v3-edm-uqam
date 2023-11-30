@@ -8,7 +8,7 @@ const RequestHeader = ({ dir, data, showLoading }) => {
 
     const updateView = React.useCallback(() => {
         setIsViewUpdate(true)
-        fetch('http://patent2net.edm.uqam.ca/api/v1/requests/' + dir + "/interface", { 
+        fetch('https://patent2net.uqam.ca/api/v1/requests/' + dir + "/interface", { 
             method: 'POST'
         })
         .then(function(response) {
@@ -20,7 +20,7 @@ const RequestHeader = ({ dir, data, showLoading }) => {
     }, [dir])
 
     const updateRequest = React.useCallback(() => {
-        fetch('http://patent2net.edm.uqam.ca/api/v1/requests/' + dir+'/update', {
+        fetch('https://patent2net.uqam.ca/api/v1/requests/' + dir+'/update', {
             method: 'POST'
         })
         .then(function(response) {
@@ -29,7 +29,7 @@ const RequestHeader = ({ dir, data, showLoading }) => {
     }, [dir, history])
 
     const deleteRequest = React.useCallback(() => {
-        fetch('http://patent2net.edm.uqam.ca/api/v1/requests/' + dir, { 
+        fetch('https://patent2net.uqam.ca/api/v1/requests/' + dir, { 
             method: 'DELETE'
         })
         .then(function(response) {

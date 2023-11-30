@@ -3329,7 +3329,7 @@
         }, xr = fr({
             id: "solr",
             serviceName: "Solr",
-            configOverrides: {serviceUrl: "http://patent2net.edm.uqam.ca:8983/solr", extraHttpGetParams: ""},
+            configOverrides: {serviceUrl: "https://patent2net.uqam.ca:8983/solr", extraHttpGetParams: ""},
             querySetting: e => Object(T.a)(Object(T.a)({id: "".concat(e, ":query")}, Object(fe.e)(ye, "query")), {}, {
                 type: "string",
                 label: "Query",
@@ -3492,7 +3492,7 @@
         }), Lr = fr({
             id: "es",
             serviceName: "Elasticsearch",
-            configOverrides: {serviceUrl: "http://patent2net.edm.uqam.ca:9200/", extraHttpGetParams: ""},
+            configOverrides: {serviceUrl: "https://patent2net.uqam.ca:9200/", extraHttpGetParams: ""},
             querySetting: e => Object(T.a)(Object(T.a)({id: "".concat(e, ":query")}, Object(fe.e)(ye, "query")), {}, {
                 type: "string",
                 label: "Query",

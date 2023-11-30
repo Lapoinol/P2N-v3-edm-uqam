@@ -25,7 +25,7 @@ def AnnonceProgres(Appli, valActu, valMax):
     if valActu and valMax:
         valActu = "%.2f" % valActu 
         try:
-            requests.get('http://patent2net.edm.uqam.ca/announce?appli=%s&ValActu=%s&valMax=%s' %(Appli, valActu, valMax) )
+            requests.get('https://patent2net.uqam.ca/announce?appli=%s&ValActu=%s&valMax=%s' %(Appli, valActu, valMax) )
         except:
             pass
     else:
@@ -34,6 +34,6 @@ def AnnonceProgres(Appli, valActu, valMax):
 def AnnonceLog(Appli, texte):
 
     try:
-        requests.get('http://patent2net.edm.uqam.ca/announce?appli=%s&log=%s' %(Appli+'Log', texte) )
+        requests.get('https://patent2net.uqam.ca/announce?appli=%s&log=%s' %(Appli+'Log', texte) )
     except:
         pass

@@ -4,7 +4,7 @@
 Web interface
 =============
 You can interact with Patent2Net using a HTML5 compliant browser. Best results using Firefox or chrome are acheived. 
-The main interface is on port 5000. You can access the home page using the adress: http://patent2net.edm.uqam.ca
+The main interface is on port 5000. You can access the home page using the adress: https://patent2net.uqam.ca
 
 Home page
 ---------

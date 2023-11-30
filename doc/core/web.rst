@@ -6,7 +6,7 @@ Generalities
 ============
 
 The patent2net web interface allows queries to be made directly from the web browser.
-It is available at the url http://patent2net.edm.uqam.ca/app
+It is available at the url https://patent2net.uqam.ca/app
 
 
 How it works

@@ -10,7 +10,7 @@ Please read this section carefully.
 
 Docker version via web interface
 ================================
-Follow the get started section: http://patent2net.edm.uqam.ca/get_started
+Follow the get started section: https://patent2net.uqam.ca/get_started
 
 After successfully configuring the software, you might want to
 follow up reading about its :ref:`usage`.

@@ -16,7 +16,7 @@ const PatentCountResult = ({ dir, to_be_found }) => {
         const data = new FormData();
         data.append("date", year);
 
-        fetch('http://patent2net.edm.uqam.ca/api/v1/requests/' + dir + "/split", { 
+        fetch('https://patent2net.uqam.ca/api/v1/requests/' + dir + "/split", { 
             method: 'POST',
             body: data
         })
