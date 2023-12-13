@@ -110,6 +110,7 @@ class P2NConfig:
                    return open(arg, "r").readlines()
 
         if self.file != None:
+            print("Self.file est : " + self.file)
             if ".cql" in self.file.lower():
                 file_path = '../RequestsSets/' + self.file
                 return open(file_path, "r").readlines()
