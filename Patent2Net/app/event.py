@@ -34,4 +34,4 @@ def send_new_event(event):
     """
     serialized = event.serialize()
     header = {"content-type": "application/json"}
-    requests.post("https://patent2net.uqam.ca/api/v1/events", data=json.dumps(serialized), headers=header, verify=False )
+    requests.post("http://localhost:5000/api/v1/events", data=json.dumps(serialized), headers=header, verify=False )

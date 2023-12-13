@@ -21,8 +21,9 @@ from six import StringIO, BytesIO
 
 
 def AnnonceProgres(Appli, valActu, valMax):
-    valActu = "%.2f" % valActu 
-    pipo = requests.get('https://patent2net.uqam.ca/announce?appli=%s&ValActu=%s&valMax=%s' %(Appli, valActu, valMax) )
+    valActu = "%.2f" % valActu
+    print('http://localhost:5000/announce?appli=%s&ValActu=%s&valMax=%s' %(Appli, valActu, valMax))
+    pipo = requests.get('http://localhost:5000/announce?appli=%s&ValActu=%s&valMax=%s' %(Appli, valActu, valMax) )
 
 # so I copy it here  FIX It please
 #
