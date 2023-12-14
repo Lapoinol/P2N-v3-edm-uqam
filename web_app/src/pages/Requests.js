@@ -41,7 +41,7 @@ const all_options = {
   },
   "p2n_carrot": {
     name: "p2n carrot",
-    description: "Export data to XML suitable for using in Carrot2. Tip use patent2net.edm.uqam.ca:8080 instead.",
+    description: "Export data to XML suitable for using in Carrot2. Tip use patent2net.uqam.ca instead.",
     icon: "carrot"
   },
   "p2n_iramuteq": {

@@ -41,5 +41,5 @@ Download Data
 -------------
 * This button allows you to download all the data directory in zip format to you computer file system (out of the docker machine).
 
-.. note:: You can also use an FTP client with the address patent2net.edm.uqam.ca, user p2n and no pass.
+.. note:: You can also use an FTP client with the address patent2net.uqam.ca.
 

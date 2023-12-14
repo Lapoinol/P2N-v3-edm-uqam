@@ -4319,7 +4319,7 @@
                 }), Object(a.jsx)(c.b, {exact: !0, path: u.a.about.path, component: O})]
             })]
         });
-    Boolean("patent2net.edm.uqam.ca" === window.location.hostname || "[::1]" === window.location.hostname || window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+    Boolean("patent2net.uqam.ca" === window.location.hostname || "[::1]" === window.location.hostname || window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
     o.a.render(Object(a.jsx)(tn, {}), document.getElementById("root")), "serviceWorker" in navigator && navigator.serviceWorker.ready.then((e => {
         e.unregister()
     }))

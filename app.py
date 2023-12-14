@@ -626,7 +626,7 @@ def request_app(path):
     return send_file("web_app/build/index.html")
 
 
-#Authorize the app to be accessed in a different environment (patent2net.edm.uqam.ca in our case)
+#Authorize the app to be accessed in a different environment (patent2net.uqam.ca in our case)
 if __name__ == "__main__":
     # execute only if run as a script
     # handler = RotatingFileHandler('p2n.log', maxBytes=10000, backupCount=1)

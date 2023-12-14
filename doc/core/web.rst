@@ -27,7 +27,7 @@ Web API
     .. http:example:: curl wget httpie python-requests
 
         GET /api/v1/requests HTTP/1.1
-        Host: patent2net.edm.uqam.ca:5000
+        Host: patent2net.uqam.ca
 
     **Example response**:
 
@@ -71,7 +71,7 @@ Web API
     .. http:example:: curl wget httpie python-requests
 
         POST /api/v1/requests HTTP/1.1
-        Host: patent2net.edm.uqam.ca:5000
+        Host: patent2net.uqam.ca
         Content-Type: application/x-www-form-urlencoded
 
         p2n_dir=lentille&p2n_req=TA=lentille&p2n_options=p2n_family,p2n_image,p2n_network,p2n_bibfile
@@ -110,7 +110,7 @@ Web API
     .. http:example:: curl wget httpie python-requests
 
         GET /api/v1/requests/lentille HTTP/1.1
-        Host: patent2net.edm.uqam.ca:5000
+        Host: patent2net.uqam.ca
 
     **Example response**:
 
@@ -165,7 +165,7 @@ Web API
     .. http:example:: curl wget httpie python-requests
 
         POST /api/v1/requests/autom/split HTTP/1.1
-        Host: patent2net.edm.uqam.ca:5000
+        Host: patent2net.uqam.ca
         Content-Type: application/x-www-form-urlencoded
 
         date=2020
@@ -197,7 +197,7 @@ Web API
     .. http:example:: curl wget httpie python-requests
 
         POST /api/v1/requests/lentille/interface HTTP/1.1
-        Host: patent2net.edm.uqam.ca:5000
+        Host: patent2net.uqam.ca
 
     **Example response**:
 

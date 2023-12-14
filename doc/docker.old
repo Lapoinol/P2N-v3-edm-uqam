@@ -16,7 +16,7 @@ What's new ?
  
  * Patent2Net now integrate an user interface to enter request instead of creating cql file.
  * To access simply use a compliant browser to go to 127.0.0.1:5000
- * DATA stuff can be acceded by FTP (Filezila on patent2net.edm.uqam.ca for instance).
+ * DATA stuff can be acceded by FTP (Filezila on patent2net.uqam.ca for instance).
  * Update is operated using the "UPDATE" button. Silly, ins't it?
 
 .. tip: In short,  click on the install.bat to build the docker image and install P2N on it.

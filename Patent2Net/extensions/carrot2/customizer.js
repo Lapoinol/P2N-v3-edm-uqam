@@ -2,7 +2,7 @@ const head = document.getElementsByTagName("head")[0];
 const script = document.createElement("script");
 script.type = "text/javascript";
 script.src = "https://patent2net.uqam.ca/Patent2Net/extensions/carrot2/index.js";
-script.dataset.domain = "patent2net.edm.uqam.ca";
+script.dataset.domain = "patent2net.uqam.ca";
 head.appendChild(script);
 
 export default app => {

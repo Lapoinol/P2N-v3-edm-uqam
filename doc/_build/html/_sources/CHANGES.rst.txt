@@ -9,7 +9,7 @@ Patent2Net CHANGES (in short)
 .. note::
  - Major improvements in the global architecture
  - P2N in now built on centOS v8
- - Added a docker image for Elasticsearch: 7.9.2 with carrot2 plugin (see https://github.com/carrot2/elasticsearch-carrot2). patent2net.edm.uqam.ca:9200 and 9300 to access the Elasticsearch server
+ - Added a docker image for Elasticsearch: 7.9.2 with carrot2 plugin (see https://github.com/carrot2/elasticsearch-carrot2). patent2net.uqam.ca:9200 and 9300 to access the Elasticsearch server
  - Added a docker image for Kibana: 7.9.2 (see https://www.elastic.co/fr/kibana). Also in the standard port 5601.
  - First version of P2N indexer that feed the elastic search indexer
 .. warning:: 
@@ -51,7 +51,7 @@ Patent2Net CHANGES (in short)
 - New branch: docker installation
 - P2N works now in a standalone docker Ubuntu machine (Thanks Esteban).
 
- - Add Flask front end, patent2net.edm.uqam.ca:5000 is the entry point.
+ - Add Flask front end, patent2net.uqam.ca is the entry point.
  - Add update feature making p2n version allways uptodate. Static versions are useless from now.
  - Integration of several features (Pivot, Datatable)
  - Others exports (to IramuteQ or Carrot2) have to use the download data pages
