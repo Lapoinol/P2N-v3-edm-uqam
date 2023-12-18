@@ -25,10 +25,6 @@ ReactDOM.render(
               </li>
               
               <li className="mr-3">
-                <Link to="/app/get_started" className="inline-block no-underline hover:underline py-2 px-4">Get Started</Link>
-              </li>
-              
-              <li className="mr-3">
                 <Link to="/app/requests"  className="inline-block py-2 px-4 no-underline font-medium">Requests</Link>
               </li>
               
